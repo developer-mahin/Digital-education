@@ -18,7 +18,7 @@ body{
     right: 0;
     bottom: 0;
     background: #000;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .carousel-caption{
@@ -63,7 +63,7 @@ body{
     }  
     
     .carousel-item img{
-        height: 500px;
+        height: 400px;
     }
 
     .carousel-caption h5{
@@ -71,5 +71,11 @@ body{
     }
     .carousel-caption p{
         font-size: 12px !important;
+    }
+}
+
+@media(max-width:576px){
+    .course-img img{
+        width: 100%;
     }
 }
